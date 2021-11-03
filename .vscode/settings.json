@@ -1,0 +1,13 @@
+{
+  "solidity.compileUsingRemoteVersion": "v0.4.12+commit.194ff033",
+  "spellright.language": ["en"],
+  "spellright.documentTypes": ["markdown", "plaintext", "mdx"],
+  "spellright.parserByClass": {
+    "mdx": {
+      "parser": "markdown"
+    },
+    "solidity": {
+      "parser": "plain"
+    }
+  }
+}

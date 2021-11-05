@@ -1,7 +1,8 @@
 pragma solidity ^0.4.21;
 
 /**
-@title Deploy Challenge - Capture the Ether - Warmup 1
+@title Deploy a contract - Capture the Ether - Warmup 1
+@author broccolirob (solver, not author)
 @notice Deployed to "0xC42c6e9dac03c3A0AbD86188C3Eb7cEBEE7cbC64" and validated 
 on website.
  */

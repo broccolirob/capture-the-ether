@@ -1,7 +1,8 @@
 pragma solidity ^0.4.21;
 
 /**
-@title Nickname Challenge - Capture the Ether - Warmup 3
+@title Choose a nickname - Capture the Ether - Warmup 3
+@author broccolirob (solver, not author)
 @notice Deployed to "0x78648272799C59Dac17BD23d0fF637210c00E1aF", this contract 
 is used for verification. The Contract that holds the nicknameOf mapping is 
 located at "0x71c46Ed333C35e4E6c62D32dc7C8F00D125b4fee", the task is completed 

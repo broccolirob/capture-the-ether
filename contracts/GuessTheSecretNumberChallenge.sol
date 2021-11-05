@@ -1,9 +1,10 @@
 pragma solidity ^0.4.21;
 
 /**
-@title Guess The Secret Number
+@title Guess the secret number - Capture the Ether - Lotteries 2
+@author broccolirob (solver, not author)
 @notice Deployed to "0x5cF2092aD19e457a036Ecb06e077d28313f256BD", task 
-completed in scripts/guess-random-number.js
+completed in scripts/guess-secret-number.js
  */
 contract GuessTheSecretNumberChallenge {
     bytes32 answerHash =

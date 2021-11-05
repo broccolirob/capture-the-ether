@@ -1,16 +1,17 @@
 pragma solidity ^0.4.21;
 
 /**
-@title Guess the number - Capture the Ether - Lotteries 1
+@title Guess the random number - Capture the Ether - Lotteries 3
 @author broccolirob (solver, not author)
-@notice Deployed to "0xCE6159d0A4789Bf0d5B9b7aEbFC911963C246ef9", task 
-completed in scripts/guess-number.js
+@notice Deployed to "0x67efAE83aE60607AF787e53915fBB05AcD5A8d9E", task 
+completed in scripts/guess-random-number.js
  */
-contract GuessTheNumberChallenge {
-    uint8 answer = 42;
+contract GuessTheRandomNumberChallenge {
+    uint8 answer;
 
-    function GuessTheNumberChallenge() public payable {
+    function GuessTheRandomNumberChallenge() public payable {
         require(msg.value == 1 ether);
+        answer = uint8(keccak256(block.blockhash(block.number - 1), now));
     }
 
     function isComplete() public view returns (bool) {

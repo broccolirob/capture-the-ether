@@ -1,7 +1,7 @@
 pragma solidity ^0.4.21;
 
 /**
-@title Predict the future
+@title Predict the future - Capture the Ether - Lotteries 5
 @author broccolirob (solver, not author)
 @notice Deployed on Ropsten at "0x524114778B4A48CAD68103f8689A3B217dc3C2B2".
 Attacking contract can be found below this one.

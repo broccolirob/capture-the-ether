@@ -67,6 +67,9 @@ module.exports = {
     alice: {
       default: 2,
     },
+    mallory: {
+      default: 3,
+    },
   },
   gasReporter: {
     enabled: REPORT_GAS !== undefined,
